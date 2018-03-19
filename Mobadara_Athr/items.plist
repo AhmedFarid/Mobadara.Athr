@@ -1,14 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   items.plist
-   Mobadara_Athr
-
-   Created by FARIDO on 3/19/18.
-   Copyright (c) 2018 FARIDO. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<array>
+	<dict>
+		<key>Image</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>Our Identity</string>
+		<key>Desc</key>
+		<string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+	</dict>
     <dict>
-    
+        <key>Image</key>
+        <string>Our Vision</string>
+        <key>Name</key>
+        <string>Our Vision</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
     </dict>
+    <dict>
+        <key>Image</key>
+        <string>Our Message</string>
+        <key>Name</key>
+        <string>Our Message</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    </dict>
+    <dict>
+        <key>Image</key>
+        <string>Our Values</string>
+        <key>Name</key>
+        <string>Our Values</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    </dict>
+    <dict>
+        <key>Image</key>
+        <string>Our Goals</string>
+        <key>Name</key>
+        <string>Our Goals</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    </dict>
+    <dict>
+        <key>Image</key>
+        <string>The Targeted</string>
+        <key>Name</key>
+        <string>The Targeted</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    </dict>
+    <dict>
+        <key>Image</key>
+        <string>Organizational Chart</string>
+        <key>Name</key>
+        <string>Organizational Chart</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    </dict>
+    <dict>
+        <key>Image</key>
+        <string>Geographic Range</string>
+        <key>Name</key>
+        <string>Geographic Range</string>
+        <key>Desc</key>
+        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    </dict>
+</array>
 </plist>

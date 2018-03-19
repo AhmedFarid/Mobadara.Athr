@@ -1,9 +1,17 @@
-//
-//  aboutItem.swift
-//  Mobadara_Athr
-//
-//  Created by FARIDO on 3/19/18.
-//  Copyright © 2018 FARIDO. All rights reserved.
-//
-
 import Foundation
+
+class item {
+    
+    
+    var itemName: String?
+    var Des: String?
+    var image: String?
+    
+    init(itemName: String, Des: String, image: String){
+        
+        self.itemName = itemName
+        self.Des = Des
+        self.image = image
+    }
+    
+}

@@ -1,35 +1,27 @@
-//
-//  aboutDes.swift
-//  Mobadara_Athr
-//
-//  Created by FARIDO on 3/19/18.
-//  Copyright © 2018 FARIDO. All rights reserved.
-//
-
 import UIKit
 
 class aboutDes: UIViewController {
+    
+    var singlItem: item?
+    //////////////////////////////////
+    //outlets
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var desc: UITextView!
+    /////////////////////////////////
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        titleLable.text = singlItem?.itemName!
+        desc.text = singlItem?.Des!
+        image.image = UIImage(named: (singlItem?.image!)!)
+        
 
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func backBTN(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
