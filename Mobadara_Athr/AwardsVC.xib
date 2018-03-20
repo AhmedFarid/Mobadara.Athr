@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AwardsVC" customModule="Mobadara_Athr" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="tTA-m2-3GX" id="flh-7h-Fed"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tTA-m2-3GX" userLabel="bg">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pcf-Tc-1WT" customClass="RoundedView" customModule="Mobadara_Athr" customModuleProvider="target">
+                    <rect key="frame" x="20" y="173.5" width="335" height="320"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVA-Si-cp0">
+                            <rect key="frame" x="297" y="8" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="IYS-R7-Iqg"/>
+                                <constraint firstAttribute="height" constant="30" id="ksN-8n-I15"/>
+                            </constraints>
+                            <state key="normal" image="closse"/>
+                            <connections>
+                                <action selector="closeBTn:" destination="-1" eventType="touchUpInside" id="ye7-uu-9t6"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dmz-zk-Mcb">
+                            <rect key="frame" x="130" y="33" width="74" height="28"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                            <color key="textColor" red="0.38823529410000002" green="0.043137254899999998" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A prize to be designed and announced on the platform." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtZ-r1-1YL">
+                            <rect key="frame" x="8" y="221" width="319" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Yit-NL-oYU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Athr Awards" translatesAutoresizingMaskIntoConstraints="NO" id="3ub-uk-x3h">
+                            <rect key="frame" x="103" y="77" width="128" height="128"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="128" id="TUj-Wj-q3c"/>
+                                <constraint firstAttribute="width" constant="128" id="cYR-4Z-x5r"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="320" id="2GL-Tw-G7g"/>
+                        <constraint firstItem="Dmz-zk-Mcb" firstAttribute="centerX" secondItem="Pcf-Tc-1WT" secondAttribute="centerX" id="5fT-KQ-Ztu"/>
+                        <constraint firstItem="fVA-Si-cp0" firstAttribute="top" secondItem="Pcf-Tc-1WT" secondAttribute="top" constant="8" id="Nic-O5-lrD"/>
+                        <constraint firstAttribute="trailing" secondItem="dtZ-r1-1YL" secondAttribute="trailing" constant="8" id="Phu-aM-5KT"/>
+                        <constraint firstItem="dtZ-r1-1YL" firstAttribute="leading" secondItem="Pcf-Tc-1WT" secondAttribute="leading" constant="8" id="gw6-VW-KlX"/>
+                        <constraint firstItem="3ub-uk-x3h" firstAttribute="centerX" secondItem="Pcf-Tc-1WT" secondAttribute="centerX" id="igS-Ud-y49"/>
+                        <constraint firstItem="Dmz-zk-Mcb" firstAttribute="top" secondItem="Pcf-Tc-1WT" secondAttribute="top" constant="33" id="jy3-LS-BOf"/>
+                        <constraint firstAttribute="bottom" secondItem="dtZ-r1-1YL" secondAttribute="bottom" constant="39" id="nBY-jj-lJj"/>
+                        <constraint firstAttribute="trailing" secondItem="fVA-Si-cp0" secondAttribute="trailing" constant="8" id="twc-5O-wIu"/>
+                        <constraint firstItem="3ub-uk-x3h" firstAttribute="top" secondItem="Dmz-zk-Mcb" secondAttribute="bottom" constant="16" id="xLz-cD-3oT"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tTA-m2-3GX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CaF-AB-nnY"/>
+                <constraint firstAttribute="bottom" secondItem="tTA-m2-3GX" secondAttribute="bottom" id="OTB-1n-QfK"/>
+                <constraint firstItem="tTA-m2-3GX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Vmj-Cu-pu6"/>
+                <constraint firstItem="Pcf-Tc-1WT" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XPI-bY-xHh"/>
+                <constraint firstItem="Pcf-Tc-1WT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="jIT-8t-Mfb"/>
+                <constraint firstAttribute="trailing" secondItem="tTA-m2-3GX" secondAttribute="trailing" id="qnf-nb-M7I"/>
+                <constraint firstAttribute="trailing" secondItem="Pcf-Tc-1WT" secondAttribute="trailing" constant="20" id="wrY-mO-fOW"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Athr Awards" width="300" height="300"/>
+        <image name="closse" width="512" height="512"/>
+    </resources>
+</document>

@@ -8,7 +8,7 @@
 		<key>Name</key>
 		<string>Our Identity</string>
 		<key>Desc</key>
-		<string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>Quality development paths across an electronic platform in Qunfudah province and challenge young people and develop skills in all areas.      In addition to enabling and training through various partnerships with private sector institutions through this program, you can achieve the desired results. Platform.</string>
 	</dict>
     <dict>
         <key>Image</key>
@@ -16,7 +16,7 @@
         <key>Name</key>
         <string>Our Vision</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>Empower individuals with quality partnerships to build an inspiring development community</string>
     </dict>
     <dict>
         <key>Image</key>
@@ -24,7 +24,7 @@
         <key>Name</key>
         <string>Our Message</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>We are committed to providing all kinds of logistical support, partnerships and training to enable individuals to provide skills and provide all consultancy and support for the manufacture of individual product and inspiration experience according to modern technical systems</string>
     </dict>
     <dict>
         <key>Image</key>
@@ -32,7 +32,12 @@
         <key>Name</key>
         <string>Our Values</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>
+    Professional
+    creativity and innovation
+    Inspiration
+    Empowerment
+    Partnership</string>
     </dict>
     <dict>
         <key>Image</key>
@@ -40,7 +45,12 @@
         <key>Name</key>
         <string>Our Goals</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>1. Empowering individuals through training.
+2. Specific partnerships with the public and private sector.
+3 - raise the rate of growth of the individual in the community and reduce unemployment rates.
+4. Industry is an inspirational development experience for others.
+5. Provision of diverse logistical support to individuals.
+6 - attracting expertise and competencies to promote development in the community of Qunfudah province</string>
     </dict>
     <dict>
         <key>Image</key>
@@ -48,7 +58,7 @@
         <key>Name</key>
         <string>The Targeted</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>The number of young men and women aged 18-40 in the first phase (1000 young men and women in the second stage) (158,000 young men and women in the third stage) in the province of Qunfudah and its affiliated centers in various developmental tracks according to the stages of implementation and marketing 1000 local products,The selection of this segment comes as the percentage of young people is more than 50% of the Saudi society</string>
     </dict>
     <dict>
         <key>Image</key>
@@ -56,7 +66,12 @@
         <key>Name</key>
         <string>Organizational Chart</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>
+  Head of the initiative committee
+  training committee
+  platform committee
+  social impact committee
+  marketing committee</string>
     </dict>
     <dict>
         <key>Image</key>
@@ -64,7 +79,7 @@
         <key>Name</key>
         <string>Geographic Range</string>
         <key>Desc</key>
-        <string>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+        <string>The platform will serve young people and girls in Qunfudah province and will send their inspiration to all over the world They will be an inspirational sign of a renewed world They will provide their development products to all users in the virtual world.</string>
     </dict>
 </array>
 </plist>

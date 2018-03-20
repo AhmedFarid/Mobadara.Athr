@@ -4,19 +4,25 @@ class about: UIViewController, UICollectionViewDelegate, UICollectionViewDataSou
     
     var itemList = Array<item>()
     
-    //////////////////////////////////////
+    
     //outlets
     @IBOutlet weak var aboutCollectionView: UICollectionView!
+    @IBOutlet weak var menuBTN: UIButton!
     //////////////////////////////////////
     
     override func viewDidLoad() {
         super.viewDidLoad()
         readFromBlist()
         
+        //menuBtn call
+        menuBTN.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        
+        //////////////////////////////////
+        
     }
 
-    
-    /////////////////////////////////////
     //collectionView SetUp
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
